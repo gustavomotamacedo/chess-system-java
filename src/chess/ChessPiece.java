@@ -22,4 +22,8 @@ public abstract class ChessPiece extends Piece {
 		return color;
 	}
 	
+	public ChessPosition getChessPositon() {
+		return ChessPosition.fromPosition(this.position);		
+	}
+	
 }
